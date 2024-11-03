@@ -1,0 +1,2130 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ADD AND REMOVE FACULTY TO KEEP IT UP TO DATE -->
+<!-- Prof. NARESH HAS TO BE "Assistant prof- Selection Grade" -->
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js"></script> <!-- KUTE Animation Library -->
+    <script src="https://kit.fontawesome.com/631b98025b.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome Icon Kit -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/conf.css" />
+
+    <!-- Flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+
+    <!-- Animate.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>CODE-AI:committees</title>
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-4" href="index.html">
+                <div class="container ml-n">
+                    <div class="slider">
+                        <div class="slide-track">
+                            <div class="slide image-list-item-codeAI">
+                                <img src="assets/img/dark-logo-new.png" alt="Image 1">
+                            </div>
+                            <div class="slide image-list-item-tNf ">
+                                <img src="assets/img/footer-assets/tNf-logo-alt.png" alt="Image 2">
+                            </div>
+                            <div class="slide image-list-item-linnaeus">
+                                <img src="assets/img/footer-assets/linnaeusUNI-no_bg.png" alt="Image 3">
+                            </div>
+                            <div class="slide image-list-item supsi">
+                                <img src="assets/img/footer-assets/supsi-logo.svg" alt="Image 4">
+                            </div>
+                            <div class="slide image-list-item-scopus">
+                                <img src="assets/img/footer-assets/Scopus_logo-no_bg.png" alt="Image 5">
+                            </div>
+                            <div class="slide image-list-item-codeAI">
+                                <img src="assets/img/dark-logo-new.png" alt="Image 1">
+                            </div>
+                            <div class="slide image-list-item-tNf ">
+                                <img src="assets/img/footer-assets/tNf-logo-alt.png" alt="Image 2">
+                            </div>
+                            <div class="slide image-list-item-linnaeus">
+                                <img src="assets/img/footer-assets/linnaeusUNI-no_bg.png" alt="Image 3">
+                            </div>
+                            <div class="slide image-list-item supsi">
+                                <img src="assets/img/footer-assets/supsi-logo.svg" alt="Image 4">
+                            </div>
+                            <div class="slide image-list-item-scopus">
+                                <img src="assets/img/footer-assets/Scopus_logo-no_bg.png" alt="Image 5">
+                            </div>
+                            <div class="slide image-list-item-codeAI">
+                                <img src="assets/img/dark-logo-new.png" alt="Image 1">
+                            </div>
+                            <div class="slide image-list-item-tNf ">
+                                <img src="assets/img/footer-assets/tNf-logo-alt.png" alt="Image 2">
+                            </div>
+                            <div class="slide image-list-item-linnaeus">
+                                <img src="assets/img/footer-assets/linnaeusUNI-no_bg.png" alt="Image 3">
+                            </div>
+                            <div class="slide image-list-item supsi">
+                                <img src="assets/img/footer-assets/supsi-logo.svg" alt="Image 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a />
+                <button class="hamburger-button" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="hamburger-span"><img src="assets/img/visualization.png" alt="hamburger icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <span class="offcanvas-img"> <img src="assets/img/dark-logo-new.png" alt="logo" /> </span>
+                        <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link nav-link-blue nav-options ">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./registration.html"
+                                    class="nav-link nav-link-blue nav-options ">Registration</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="publishing.html" class="nav-link nav-link-blue nav-options ">Publications</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="awards.html" class="nav-link nav-link-blue nav-options ">Awards</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="sponsorship.html" class="nav-link nav-link-blue nav-options ">Sponsorship</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link nav-link-blue dropdown-toggle nav-options " href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Call
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="CFP.html">Call for Papers</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="CFP.html#dates">Important Dates</a></li>
+                                    <li><a class="dropdown-item" href="CFP.html#theme">Theme of CODE-AI</a></li>
+                                    <li><a class="dropdown-item" href="CFP.html#instruction">Instruction to Authors</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link nav-link-blue dropdown-toggle nav-options " href="committees.html"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Committees
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item " href="committees.html#honorary">Honorary Committee</a>
+                                    </li>
+                                    <li><a class="dropdown-item " href="committees.html#SCI">Scientific Committee</a>
+                                    </li>
+                                    <li><a class="dropdown-item " href="committees.html#organising">Organizing
+                                            Committee</a>
+                                    </li>
+                                    <li><a class="dropdown-item " href="committees.html#advisory">Advisory Committee</a>
+                                    </li>
+                                    <li><a class="dropdown-item " href="committees.html#PRC">Program Review
+                                            Committee</a>
+                                    </li>
+                                    <li><a class="dropdown-item " href="committees.html">Student Organizing
+                                            Committee</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link nav-link-blue dropdown-toggle nav-options " href="speaker.html"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Speaker
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="speaker.html#keynote">Keynote Speaker </a></li>
+                                    <li><a class="dropdown-item" href="speaker.html">Invited Speaker</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link nav-link nav-link-blue nav-options ">Travel
+                                    &<br>Accommodation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://cmt3.research.microsoft.com/CODEAI2024"
+                                    class="nav-button nav-link-blue">
+                                    <button type="button" class="btn btn-primary">
+                                        Submit Paper
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home" style="background: linear-gradient(to right, #af314d, #1d2130);">
+        <div class="hero-text-md" style="padding: 10px;">
+            <span class="landing-title" style="color: white;">Committees</span>
+        </div>
+    </section>
+
+    <
+
+        <section class="lg-minH" id="honorary" style="margin-top: 100px; box-sizing: border-box; background: linear-gradient(to left, #1d2130, #af314d);">
+            <div class="instruction-container">
+                <div class="text-center" style="margin-top: 0;">
+                    <h2 class="title">Honorary Committee</h2>
+                </div>
+
+            <div class="instruction-card-container">
+
+                <div class="full-span">
+                    <div class=" text-center" style="margin-top: 0">
+                        <h2 class="title secondary">
+                            Chief Patron
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="full-span">
+                    <div class="instruction-card">
+                        <div class="content-section">
+                            <div class="committee-img-container">
+                                <img src="assets/img/Organisers/Dr_Ramdas_M_Pai.png" alt="">
+                            </div>
+
+                            <div class="committee-person-info column-align">
+                                <div class="committee-person-title chief-patron">
+                                    Dr. Ramdas M Pai
+                                </div>
+                                <div class="mahe-designation">President and Chancellor,MAHE</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instruction-card ">
+                        <div class="content-section">
+                            <div class="committee-img-container">
+                                <img src="assets/img/Organisers/dr.ranjan.jpg" alt="">
+                            </div>
+    
+                            <div class="committee-person-info column-align">
+                                <div class="committee-person-title chief-patron">
+                                    Dr.Ranjan R Pai
+                                </div>
+                                <div class="mahe-designation">President, MAHE</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="full-span">
+                    <hr style="min-width: 90vw; border-top: 2px dashed white;" />
+                </div>
+
+                <div class="full-span">
+                    <div class=" text-center" style="margin-top: 0">
+                        <h2 class="title secondary">
+                            Patrons
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="instruction-card ">
+                    <div class="content-section">
+                        <div class="committee-img-container">
+                            <img src="assets/img/Organisers/Dr.H.S.Ballal.jpg" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr. H. S. Ballal
+                            </div>
+                            <div class="mahe-designation">Pro Chancellor, MAHE</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="instruction-card ">
+                    <div class="content-section">
+                        <div class="committee-img-container">
+                            <img src="assets/img/Organisers/Dr.M.D.Venkatesh.png" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Lt.Gen.(Dr)M.D.Venkatesh
+                            </div>
+                            <div class="mahe-designation">Vice-Chancellor, MAHE</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="instruction-card ">
+                    <div class="content-section">
+                        <div class="committee-img-container">
+                            <img src="assets/img/Organisers/Dr_Madhu_Veeraraghavan.png" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Prof.(Dr)Madhu Veeraraghavan
+                            </div>
+                            <div class="mahe-designation">Pro Vice Chancellor, MAHE</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="instruction-card ">
+                    <div class="content-section">
+                        <div class="committee-img-container">
+                            <img src="assets/img/Organisers/Dr.Narayana.png" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr Narayana Sabhahit
+                            </div>
+                            <div class="mahe-designation">Pro Vice Chancellor, Technology and Science, MAHE</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="instruction-card ">
+                    <div class="content-section">
+                        <div class="committee-img-container">
+                            <img src="assets/img/Organisers/Dr-Giridhar-Kini.jpg" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr.Giridar Kini P.
+                            </div>
+                            <div class="mahe-designation">Registrar, MAHE</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="instruction-card ">
+                    <div class="content-section">
+                        <div class="committee-img-container">
+                            <img src="assets/img/Organisers/Dr-Raghavendra-Prabhu-P.jpg" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr. Raghavendra Prabhu
+                            </div>
+                            <div class="mahe-designation">Deputy Registrar, MAHE Bengaluru</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="instruction-card ">
+                    <div class="content-section">
+                        <div class="committee-img-container">
+                            <img src="assets/img/Organisers/drsudhindra.png" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                               Dr.S Sudhindra
+                            </div>
+                            <div class="mahe-designation">Academic President, MAHE Dubai</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="full-span">
+                    <hr style="min-width: 90vw; border-top: 2px dashed white;" />
+                </div>
+
+                <div class="full-span">
+                    <div class=" text-center" style="margin-top: 0">
+                        <h2 class="title secondary">
+                            General Chairs
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="full-span">
+                    <div class="instruction-card">
+                        <div class="content-section">
+                            <div class="committee-img-container">
+                                <img src="assets/img/Organisers/dr.iven.jpg" alt="">
+                            </div>
+
+                            <div class="committee-person-info column-align">
+                                <div class="committee-person-title chief-patron">
+                                    Dr. Iven Jose
+                                </div>
+                                <div class="mahe-designation">Director, MIT, Bengaluru</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instruction-card">
+                        <div class="content-section">
+                            <div class="committee-img-container">
+                                <img src="assets/img/Organisers/drshri.jpg" alt="">
+                            </div>
+
+                            <div class="committee-person-info column-align">
+                                <div class="committee-person-title chief-patron">
+                                    Dr. Shri Krishna Pandey
+                                </div>
+                                <div class="mahe-designation" style="text-align: center; margin-top:-5px;">Professor & Chairperson-SoE-IT<br>Mahe Dubai</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instruction-card">
+                        <div class="content-section">
+                            <div class="committee-img-container">
+                                <img src="assets/img/Organisers/Dr Prema KV.png" alt="">
+                            </div>
+
+                            <div class="committee-person-info column-align">
+                                <div class="committee-person-title chief-patron">
+                                    Dr. Prema K V
+                                </div>
+                                <div class="mahe-designation" style="text-align: center; margin-top:-5px;">Associate
+                                    Director,Professor and Head<br>Department of Computer Science & Engineering</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instruction-card">
+                        <div class="content-section">
+                            <div class="committee-img-container">
+                                <img src="assets/img/Organisers/Dr.Dayananda.jpg" alt="">
+                            </div>
+
+                            <div class="committee-person-info column-align">
+                                <div class="committee-person-title chief-patron">
+                                    Dr. Dayananda P
+                                </div>
+                                <div class="mahe-designation" style="text-align: center; margin-top:-5px;">Professor and
+                                    Head<br>Department of Information Technology, MIT-BLR</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="full-span">
+                    <hr style="min-width: 90vw; border-top: 2px dashed white;" />
+                </div>
+
+                <div class="full-span">
+                    <div class=" text-center" style="margin-top: 0">
+                        <h2 class="title secondary">
+                            Program Chairs
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="instruction-card">
+                    <div class="content-section">
+                        <div class="committee-img-container chair">
+                            <img src="assets/img/Organisers/Dr.GururajHL.jpg" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr. Gururaj H L
+                            </div>
+                            <div class="mahe-designation chair">Associate Professor<br>Department of Information
+                                Technology</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Flamini only in speakers page -->
+                <div class="instruction-card">
+                    <div class="content-section">
+                        <div class="committee-img-container chair">
+                            <img src="assets/img/Organisers/drsophia.jpg" alt="">
+                        </div>
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr. Sophia Rahaman
+                            </div>
+                            <div class="mahe-designation chair">Assistant Professor<br>SoE-IT<br>
+                                MAHE Dubai</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="instruction-card">
+                    <div class="content-section">
+                        <div class="committee-img-container chair">
+                            <img src="assets/img/Organisers/Dr.GopalkrishnanT.jpg" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr. Gopalakrishnan T
+                            </div>
+                            <div class="mahe-designation chair">Associate Professor<br>Department of Information
+                                Technology</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="instruction-card">
+                    <div class="content-section">
+                        <div class="committee-img-container chair">
+                            <img src="assets/img/Organisers/Dr.Shreyas.jpg" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr. Shreyas J
+                            </div>
+                            <div class="mahe-designation chair">Assistant Professor<br>Department of Information
+                                Technology</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="instruction-card">
+                    <div class="content-section">
+                        <div class="committee-img-container chair">
+                            <img src="assets/img/Organisers/Dr.RashmiR.jpg" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr. Rashmi R
+                            </div>
+                            <div class="mahe-designation chair">Assistant Professor<br>Department of Computer Science &
+                                Engineering</div>
+                        </div>
+                    </div>
+                </div> -->
+
+
+            </div>
+        </div>
+    </section>
+
+    
+
+    <div id = "home" style="margin-top: 200px;background: linear-gradient(to right, #af314d, #1d2130); ">
+
+        <div class="instruction-container" style="padding-bottom: 50px;">
+            <div class=" text-center" style="margin-top: 0">
+                <h2 class="title">
+                    Scientific Committee
+                </h2>
+            </div>
+
+            <div class="instruction-card-container">
+
+                <div class="instruction-card-scientific ">
+                    <div class="content-section">
+                        <div class="committee-img-container">
+                            <img src="assets/img/Speakers/Osamah-Khalaf.png" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr.Osamah Ibrahim Khalaf
+                            </div>
+                            <div class="mahe-designation">Department of Solar ,Al-Nahrain Research Center for Renewable
+                                Energy, Al-Nahrain University, Iraq</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="instruction-card-scientific">
+                    <div class="content-section">
+                        <div class="committee-img-container">
+                            <img src="assets/img/Speakers/ghaidaa.png" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr. Ghaidaa Muttasher Abdulsaheb
+                            </div>
+                            <div class="mahe-designation">Department of Computer Engineering,
+
+                                University of Technology, Iraq.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="instruction-card-scientific ">
+                    <div class="content-section">
+                        <div class="committee-img-container">
+                            <img src="assets/img/Speakers/Shin-Hung_Pan.png" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr. Shin-Hung Pan
+                            </div>
+                            <div class="mahe-designation">Department of Information Management, Chaoyang University of
+                                Technology, Taiwan </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="instruction-card-scientific ">
+                    <div class="content-section">
+                        <div class="committee-img-container">
+                            <img src="assets/img/Speakers/Wing-Keung-Wong.png" alt="">
+                        </div>
+
+                        <div class="committee-person-info column-align">
+                            <div class="committee-person-title chief-patron">
+                                Dr. Wing-Keung Wong
+                            </div>
+                            <div class="mahe-designation">Asia University, Taiwan</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+
+    <div id = "home" style="margin-top: 200px;background: linear-gradient(to right, #af314d, #1d2130); ">
+        <div class="card-container" style="padding-bottom: 50px;">
+
+            <div class="full-span">
+                <div class="committee text-center" style="margin-top: 0">
+                    <h2 class="title" style="color: white; font-weight:600">
+                        Organizing Committee
+                    </h2>
+                </div>
+            </div>
+            <div class="full-span">
+                <hr style="min-width: 90vw; border-top: 2px dashed black;" />
+            </div>
+
+            <!-- EDIT THE PROFESSOR ORDER TO HAVE THE ASSOCIATE PROFESSORS FIRST !!! -->
+
+            <div class="visible-cards" style="color: white;">
+
+          
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.ShrirangAK.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Shrirang Ambaji Kulkarni
+                        </div>
+                        <div class="prof-designation">Associate Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.VishnuSMY.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Vishnu Srinivasa Murthy
+                        </div>
+                        <div class="prof-designation">Associate Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+            <div class="full-span" style="margin-top:25px" ;>
+                <hr style="min-width: 35vw; border-top: 2px dashed black;" />
+                <button class="button-background-move btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsed-CSE" aria-expanded="false" aria-controls="collapsed-CSE" id="button1"
+                    data-info="CSEplus">
+                    <i class="fa-solid fa-bold fa-plus fa-bounce fa-lg" id="CSEplus"></i>
+                </button>
+                <hr style="min-width: 35vw; border-top: 2px dashed black;" />
+
+            </div>
+
+            <div class="hidden-cards collapse" id="collapsed-CSE" style="color: white;">
+
+               
+           
+               
+                <!-- Rashmi R to be removed from program chair -->
+                <!-- Faculty to be removed: -->
+                <!-- TBD -->
+
+                <!-- IT PROFESSORS -->
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/drabdulla.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                           Dr. Abdulla KP
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MAHE Dubai</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/dramit.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Amit Kumar Mondal
+
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MAHE Dubai</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/drdeepa.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr Deepa Varghese
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MAHE Dubai</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/drganesan.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr Ganesan Subramanian
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MAHE Dubai</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/drjawid.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr M I Jawid Nazir
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MAHE Dubai</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/drprachee.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr Prachee Gupta
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MAHE Dubai</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/drrajiv.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr Rajiv Selvam
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MAHE Dubai</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/drramaprasad.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Prof. Ramaprasad Poojary
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/drravishankar.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr.Ravishankar Dudhe
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.GauravPrasad.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Prof. Gaurav Prasad
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.Abhijit.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Abhijit Das
+                        </div>
+                        <div class="prof-designation">Assistant Professor-Senior Scale</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.Amreen.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Amreen Ayesha
+                        </div>
+                        <div class="prof-designation">Assistant Professor-Senior Scale</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.Anitha.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Anitha Premkumar
+                        </div>
+                        <div class="prof-designation">Assistant Professor-Senior Scale</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.Usha.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Usha M
+                        </div>
+                        <div class="prof-designation">Assistant Professor-Senior Scale</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.Ashwitha.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Ashwitha A
+                        </div>
+                        <div class="prof-designation">Assistant Professor-Senior Scale</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.Madhur.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Madhura K
+                        </div>
+                        <div class="prof-designation">Assistant Professor-Senior Scale</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Mrs.Snigdha.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Mrs. Snigdha Sen
+                        </div>
+                        <div class="prof-designation">Assistant Professor-Senior Scale</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.S.Vaishnavi.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. S. Vaishnavi
+                        </div>
+                        <div class="prof-designation">Assistant Professor-Senior Scale</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.Anil.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Anil Kumar
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.Karthik.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Karthik Vasu
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.Kshama.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Kshama S B
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/P.Devisivasankari.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            P. Devisivasankari
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Ms.SapnaR.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Ms. Sapna R
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.SK.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. SK Mahmudul Hassan
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.Sumanth.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Sumanth V
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.NareshE.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Naresh E
+                        </div>
+                        <div class="prof-designation">Assistant Professor-Selection Grade</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.Preethi.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Preethi
+                        </div>
+                        <div class="prof-designation">Assistant Professor-Senior Scale</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.RuhulAH.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Ruhul Amin Hazarika
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.S.priya.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. S. Priya
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+                <!-- <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.ShivaDarshan.jpg" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Shiva Darshan S L
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div> -->
+
+                <div class="prof-card">
+                    <div class="prof-img">
+                        <img src="assets/img/Organisers/Dr.SindhuMadhuri.png" alt="">
+                    </div>
+                    <div class="committee-person-info column-align prof">
+                        <div class="prof-name">
+                            Dr. Sindhu Madhuri
+                        </div>
+                        <div class="prof-designation">Assistant Professor</div>
+                        <div class="prof-info">Department of Information Technology <br>MIT Bengaluru</div>
+                    </div>
+                </div>
+
+
+                <div class="full-span">
+                    <hr style="min-width: 90vw; border-top: 2px dashed black;" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section id = "home" style="margin-top: 200px;background: linear-gradient(to right, #af314d, #1d2130); ">
+        
+
+        <div class=" text-center" style="margin-top: 0">
+            <h2 class="committee-title" style="color: white;">
+                Advisory Committee
+            </h2>
+        </div>
+
+        <div class="committee-container" >
+
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Antoine Bossard
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Kanagawa University (Japan)
+                </div>
+            </div>
+
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Chenren Xu
+                </div>
+                <div class="committee-person-info">
+                    Associate Professor<br> Peking University (China)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. S. K. Lakshmanaprabhu
+                </div>
+                <div class="committee-person-info">
+                    Asst. Manager<br> Renault Nissan Technology & Business Centre India (RNTBCI).
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Ankur Gupta
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Model Institute of Engineering and Technology, Jammu
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Dilip Kumar S M
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> University Visvesvaraya College of Engineering (UVCE),Bengaluru.
+                </div>
+            </div>
+            <!-- No doctorate sucks to be him -->
+            <!-- <div class="committee-person">
+                <div class="committee-person-title">
+                    Mr. Keshav Kaushik
+                </div>
+                <div class="committee-person-info">
+                    Assistant Professor (Senior Scale)<br> School of Computer Science, UPES , Uttarakhand.
+                </div>
+            </div> -->
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Prasant Misra
+                </div>
+                <div class="committee-person-info">
+                    Senior Scientist<br> Tata Consultancy Services India
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Vijay Arya
+                </div>
+                <div class="committee-person-info">
+                    Senior Researcher<br> IBM Research
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Adrian Florea
+                </div>
+                <div class="committee-person-info">
+                    Professor<br>Lucian Blaga University of Sibiu (Romania)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Alex S. Taylor
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> University of London (United Kingdom)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. David Coyle
+                </div>
+                <div class="committee-person-info">
+                    Associate Professor <br> University College Dublin (Ireland)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Demetrios Zeinalipour-Yazti
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> University of Cyprus (Cyprus)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Alessio Malizia
+                </div>
+                <div class="committee-person-info">
+                    Associate Professor<br> University of Pisa
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Andre Inacio Reis
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Federal University of Rio Grande do Sul
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Joel J. P. C. Rodrigues
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Federal University of Piaui
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. John Atkinson
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Universidad Adolfo Ibáñez (Chile)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Cristiano A. Costa
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> University of the Rio dos Sinos Valley
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Tshilidzi Marwala
+                </div>
+                <div class="committee-person-info">
+                    Vice Chancellor & Professor<br> University of Johannesburg (South Africa)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Martin Stephanus Olivier
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> University of Pretoria (South Africa)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Kester Quist-Aphetsi
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Ghana Communication Technology University
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Sameerchand Pudaruth
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> University of Mauritius (Mauritius)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Jan Hendrik Kroeze
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> University of South Africa (South Africa)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Ashraf Saad Hussein
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Arab Open University Kuwait (Kuwait)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Ferda Ofli
+                </div>
+                <div class="committee-person-info">
+                    Senior Scientist<br> Qatar Computing Research Institute (Qatar)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Haitham S.
+                    Hamza
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Cairo University (Egypt)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Suhaib A. Fahmy
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> King Abdullah University of Science and Technology
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Mourad Ouzzani
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Qatar Computing Research Institute
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Adam R. Talcott
+                </div>
+                <div class="committee-person-info">
+                    Consulting Professional <br> University of California, Santa Barbara
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Adam A. Porter
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> University of Maryland, College Park (UMD)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Aaron Daniel Adler
+                </div>
+                <div class="committee-person-info">
+                    Scientist<br> BBN Technologies
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Adam Chlipala
+                </div>
+                <div class="committee-person-info">
+                    Professor<br>Massachusetts Institute of Technology
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Busby-Earle
+                </div>
+                <div class="committee-person-info">
+                    Vice Chancellor & Professor<br> University of Johannesburg (South Africa)
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Jorge Armin Mazariegos
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Universidad de San Carlos de Guatemala
+                </div>
+            </div>
+
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr.Ajay K Gupta
+                </div>
+                <div class="committee-person-info">
+                    Director of Computer Resources<br> Old Dominion University
+                </div>
+            </div>
+
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr.Jerry Miller
+                </div>
+                <div class="committee-person-info">
+                    Research Coordinator <br> Florida International University, USA.
+                </div>
+            </div>
+
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr.Harish Karthikeyan
+                </div>
+                <div class="committee-person-info">
+                    Research Scientist<br> New york University, USA.
+                </div>
+            </div>
+
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Heggere Ranganath
+                </div>
+                <div class="committee-person-info">
+                    Professor Emeritus <br> The University of Alabama, Huntsville.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Matt Green
+                </div>
+                <div class="committee-person-info">
+                    Managing Director<br> KB Walker, USA
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Ramkumar Krishnamoorthy
+                </div>
+                <div class="committee-person-info">
+                    Department of ICT Villa College, Maldives.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Milind Gandhe
+                </div>
+                <div class="committee-person-info">
+                    Chief Program Officer<br> MINRO, IIIT Bangalore.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. P. Nagabhushan
+                </div>
+                <div class="committee-person-info">
+                    Vice-chancellor<br> Vignan university, Andhra Pradesh.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr V. Susheela Devi
+                </div>
+                <div class="committee-person-info">
+                    Principal Research Scientist<br> IISc, Bangalore.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Aloknath De
+                </div>
+                <div class="committee-person-info">
+                    CTO<br> Samsung India, Bangalore.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Prof. L M Patnaik
+                </div>
+                <div class="committee-person-info">
+                    Retired Professor<br> IISc, Bangalore.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Y Narahari
+                </div>
+                <div class="committee-person-info">
+                    Dean<br>Computer Science and Automation <br> IISc, Bangalore.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Channappa B Akki
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> IIIT, Dharwad.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Prof. Poornima Ajayan
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Finance And Budget Analyst<br>Rice University, Houston, Texas.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Keshava Munegowda
+                </div>
+                <div class="committee-person-info">
+                    Vice President<br> Securities database engineering division of Goldman Sachs, Bangalore.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Chidananda Gowda
+                </div>
+                <div class="committee-person-info">
+                    Former vice chancellor<br> Kuvempu University, Mysore.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Sundaram Suresh
+                </div>
+                <div class="committee-person-info">
+                    Associate Professor<br> School of Computer Science and Engineering NTU, Singapore.
+                </div>
+            </div>
+            <!-- <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Hong Lin
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> University of Downtown, Houston.
+                </div>
+            </div> -->
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Heena Rathore
+                </div>
+                <div class="committee-person-info">
+                    ACM Distinguished Speaker<br> Assistant Professor<br> University of Texas, USA.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Paolo Trunfio
+                </div>
+                <div class="committee-person-info">
+                    Associate Professor <br> Computer Engineering, University of Calabria, Italy.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Fernando Koch
+                </div>
+                <div class="committee-person-info">
+                    IBM GTS Innovation Senior Technical Solutions Manager<br> Eisenhower Fellow <br>ACM Distinguished
+                    Speaker.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Prof. Amlan Chakrabarti
+                </div>
+                <div class="committee-person-info">
+                    Dean Engg. and Tech. & Director School of IT<br> University of Calcutta <br> Dist. Speaker at ACM
+                    <br> Sr. Member ACM & IEEE.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Varun Menon
+                </div>
+                <div class="committee-person-info">
+                    Distinguished Speaker at ACM <br>Associate Professor <br> Head of International Partnerships at SCMS
+                    Group.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Ullas Nambiar
+                </div>
+                <div class="committee-person-info">
+                    Principal Director AI at Accenture<br> Innovation Strategist <br>Startup Mentor Bengaluru,
+                    Karnataka.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Ramasuri Narayanam
+                </div>
+                <div class="committee-person-info">
+                    Senior Research Scientist<br> IBM Research, India.
+                </div>
+            </div>
+            <!-- <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. G R Sinha
+                </div>
+                <div class="committee-person-info">
+                    ACM Distinguished Speaker of ACM New York <br> Professor at Myanmar Institute of Information Tech.
+                </div>
+            </div> -->
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Anand Nayyar
+                </div>
+                <div class="committee-person-info">
+                    ACM Distinguished Speaker<br> Professor, Researcher, Scientist, Author, Inventor, Senior
+                    Member-ACM/IEEE.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Pradeep Kumar TS
+                </div>
+                <div class="committee-person-info">
+                    Associate Professor<br> School of Computing Science and Engineering at Vellore Institute of
+                    Technology (VIT) Chennai campus.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Prasanna Ranjith Christodoss
+                </div>
+                <div class="committee-person-info">
+                    Faculty of Information Technology<br> Shinas College of Technology Sultanate of Oman.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Neha Sharma
+                </div>
+                <div class="committee-person-info">
+                    Founder Secretary<br> Society for Data Science Senior IEEE Member, Execom Member, IEEE Pune Section.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Houbing Song
+                </div>
+                <div class="committee-person-info">
+                    Director<br> Security & Optimization for Networked Globe Laboratory(SONG Lab),Embry-Riddle
+                    Aeronautical University
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Nawab Muhammad Faseeh Qureshi
+                </div>
+                <div class="committee-person-info">
+                    Assistant Professor<br> Department of Computer Education,Sungkyunkwan University, Korea.
+                </div>
+            </div>
+            <!-- <div class="committee-person">
+                <div class="committee-person-title">
+                    Prof. Dr. Noor Zaman Jhanjhi
+                </div>
+                <div class="committee-person-info">
+                    Professor<br> Taylor's University, Malaysia.
+                </div>
+            </div> -->
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Mahmoud Hassaballah
+                </div>
+                <div class="committee-person-info">
+                    Associate Professor<br> Department of Computer Science,South Valley University,Qena, Egypt
+                </div>
+            </div>
+            <!-- <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Anand Nayyar
+                </div>
+                <div class="committee-person-info">
+                    Faculty, Researcher and Scientist<br> Duy Tan University
+                    Da Nang, Vietnam
+                </div>
+            </div> -->
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Celestine Iwendi
+                </div>
+                <div class="committee-person-info">
+                    ACM Distinguished Speaker & Associate Professor<br> School of Creative Technologies
+                    University of Bolton
+                    United Kingdom
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Lili Arabuli
+                </div>
+                <div class="committee-person-info">
+                    Associate Professor<br> Department of Natural Sciences, The University of Georgia
+                    Georgia, USA.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title">
+                    Dr. Susan M Zvacek
+                </div>
+                <div class="committee-person-info">
+                    ACM Distinguished Speaker
+                    Consultant & Teacher<br> Colorado, USA
+                </div>
+            </div>
+
+    </section>
+
+
+
+    <section id = "home" style="margin-top: 200px;background: linear-gradient(to right, #af314d, #1d2130); ">
+
+        <div class=" text-center" style="margin-top: 0">
+            <h2 class="committee-title" style="color: #fff;">
+                PROGRAM REVIEW COMMITTEE
+            </h2>
+        </div>
+
+        <div class="committee-container">
+
+            <!-- <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Prof. Francesco Flammini
+                </div>
+                <div class="committee-person-info blue">
+                    Professor of Computer Science with a focus on Cyber-Physical Systems <br> Mälardalen University
+                </div>
+            </div> -->
+
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr.Surendiran
+                </div>
+                <div class="committee-person-info blue">
+                    Professor<br>Department of CSE, NIT Pondichery
+                </div>
+            </div>
+            <!-- <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Hong Lin
+                </div>
+                <div class="committee-person-info blue">
+                    Professor<br> University of Downtown, Houston,USA.
+                </div>
+            </div> -->
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Noor Zaman
+                </div>
+                <div class="committee-person-info blue">
+                    Faculty of Innovation & Technology<br> Taylor’s University, Malaysia.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Mr. Keshav Kaushik
+                </div>
+                <div class="committee-person-info blue">
+                    Assistant Professor (Senior Scale)<br> School of Computer Science, UPES , Uttarakhand.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Sandeep Chakraborty
+                </div>
+                <div class="committee-person-info blue">
+                    Associate Professor<br> IIT Kharagpur
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr.Sangharatna
+                </div>
+                <div class="committee-person-info blue">
+                    NIT Warangal
+                </div>
+            </div>
+            <!-- <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Heena Rathore
+                </div>
+                <div class="committee-person-info blue">
+                    ACM Distinguished Speaker<br> AP at University of Texas, USA
+                </div>
+            </div> -->
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Palaniswamy
+                </div>
+                <div class="committee-person-info blue">
+                    NIT Surathkal
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Mr. Udayprasad P K
+                </div>
+                <!-- <div class="committee-person-info blue">
+                    NIT Surathkal
+                </div> -->
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Ashok Roa
+                </div>
+                <div class="committee-person-info blue">
+                    IISc Bengaluru
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Pradeep C R
+                </div>
+                <div class="committee-person-info blue">
+                    IISc, Bengaluru
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Kunwar
+                </div>
+                <div class="committee-person-info blue">
+                    NIT Trichy
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Prof. George Ghinea
+                </div>
+                <div class="committee-person-info blue">
+                    Department of Computer Science<br> Brunel University London
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Arulalan Rajan
+                </div>
+                <div class="committee-person-info blue">
+                    Faculty Proficience Programme<br> IISc, Bangalore
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Keerthana Prasad
+                </div>
+                <div class="committee-person-info blue">
+                    Professor & Director<br> Manipal School of Information Sciences,MIT, India.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Chuan-Ming Liu
+                </div>
+                <div class="committee-person-info blue">
+                    Head of the Extension Education Center<br> National Taipei University of Technology (Taipei Tech),
+                    TAIWAN
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Lai Khin Wee
+                </div>
+                <div class="committee-person-info blue">
+                    Department of Biomedical Engineering<br> Universiti Malaya, Kuala Lumpur, Malaysia
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Pradeep Kumar T S
+                </div>
+                <div class="committee-person-info blue">
+                    VIT, Vellore
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Dhamodhar Reddy Edla
+                </div>
+                <div class="committee-person-info blue">
+                    NIT Goa
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Prof. Yu-Chen Hu
+                </div>
+                <div class="committee-person-info blue">
+                    Professor<br> Providence University, Taiwan
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Arun Solanki
+                </div>
+                <div class="committee-person-info blue">
+                    Gautam Buddha University Greater Noida, India.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Hanaa Hachimi
+                </div>
+                <div class="committee-person-info blue">
+                    Tofail University-National School of Applied Sciences of Kenitra, Morocco.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Prathosh A P
+                </div>
+                <div class="committee-person-info blue">
+                    Assistant Professor<br> Department of Computer Technology & Electrical Engineering IIT Delhi.
+                </div>
+            </div>
+            <div class="committee-person">
+                <div class="committee-person-title blue">
+                    Dr. Deepu Vijayasenan
+                </div>
+                <div class="committee-person-info blue">
+                    Assistant Professor<br> Department of ECE, NIT Surathkal, Karnataka.
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- <div class="skew-c"></div> -->
+
+    <div class="wavy-divider-white" style="background: linear-gradient(to right, #af314d, #1d2130);">    <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 
+            58-18 88-18s
+            58 18 88 18 
+            58-18 88-18 
+            58 18 88 18
+            v44h-352z" />
+        </defs>
+        <g class="parallax1">
+          <use xlink:href="#gentle-wave" x="50" y="3" fill="#9e2b49" /> <!-- Lighter shade -->
+        </g>
+        <g class="parallax2">
+          <use xlink:href="#gentle-wave" x="50" y="0" fill="#8e2843" /> <!-- Intermediate shade -->
+        </g>
+        <g class="parallax3">
+          <use xlink:href="#gentle-wave" x="50" y="9" fill="#7a253d" /> <!-- Darker shade -->
+        </g>
+        <g class="parallax4">
+          <use xlink:href="#gentle-wave" x="50" y="6" fill="#582439" /> <!-- Darkest shade -->
+        </g>
+      </svg>
+  </div>
+
+    <section class="bg-drkblue footer-section" style="margin-top: 100px; background-color: #18202f;">
+        <footer class="text-center text-white">
+            <div class="container">
+                <section class="mt-3" style="min-height: 0">
+                    <div class="row text-center d-flex justify-content-center pt-5">
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="#" class="text-white" style="text-decoration: none">Home</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="CFP.html" class="text-white" style="text-decoration: none">Call for Papers</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="committees.html" class="text-white"
+                                    style="text-decoration: none">Committees</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="speaker.html" class="text-white" style="text-decoration: none">Speaker</a>
+                            </h6>
+                        </div>
+                    </div>
+                </section>
+
+                <hr />
+
+                <section class="text-center mb-3 mt-1" style="min-height: 0; ">
+                    <p class="d-flex justify-content-center align-items-center" style="margin-bottom:0 !important;">
+                        <span class="me-3">Submit your Research Papers Now!</span>
+                        <a href="https://cmt3.research.microsoft.com/CODEAI2024">
+                            <button type="button" class="btn btn-outline-light btn-rounded">
+                                Submit Now!
+                            </button>
+                        </a>
+                    </p>
+                </section>
+
+                <hr style="width: 60%; margin:auto;" />
+
+                <section class="text-center mb-3 mt-3 section-hostedby">
+                    <div class="box mahe-logo">
+                        <div class="title">Hosted by</div>
+                        <div class="image-logo">
+                            <img src="assets/img/footer-assets/manipal-logo-test.png" style="object-fit: contain;"
+                                alt="Image 1">
+                        </div>
+                    </div>
+                    <div class="box acm-logo">
+                        <div class="title">Organized by</div>
+                        <div class="image-logo">
+                            <img src="assets/img/footer-assets/acm-logo-test.png" alt="Image 2">
+                        </div>
+                    </div>
+                    <div class="box mahe-logo">
+                        <div class="title">Powered by</div>
+                        <a href="https://www.cgi.com/india/en" target="_blank">
+                            <div class="image-logo">
+                                <img src="assets/img/Company_logos/CGI_logo.png"
+                                    style="object-fit: contain; background-color:white; padding:10px;" alt="Image 2">
+                            </div>
+                        </a>
+                    </div>
+                </section>
+
+                <hr style="width: 60%; margin:auto;" />
+
+                <section class="text-center mb-3 mt-3" style="min-height: 0;">
+                    <p class="d-flex justify-content-center align-items-center" style="margin-bottom:0 !important;">
+                        <span class="me-3 collaboration-footer">Published by</span>
+                        <!-- <button type="button" class="btn btn-outline-light btn-rounded">
+                  Submit Now!
+                </button> -->
+                    </p>
+                </section>
+
+
+                <section class="text-center mb-3 mt-3 section-hostedby">
+                    <div class="box mahe-logo">
+                        <div class="image-logo">
+                            <img src="assets/img/footer-assets/tNf-logo-alt.png"
+                                style="object-fit: contain; background-color:white; padding:10px;" alt="Image 1">
+                        </div>
+                    </div>
+                </section>
+
+                <hr style="width: 60%; margin:auto;" />
+
+                <section class="text-center mb-3 mt-3" style="min-height: 0;">
+                    <p class="d-flex justify-content-center align-items-center" style="margin-bottom:0 !important;">
+                        <span class="me-3 collaboration-footer">Indexed By</span>
+                        <!-- <button type="button" class="btn btn-outline-light btn-rounded">
+                  Submit Now!
+                </button> -->
+                    </p>
+                </section>
+
+                <section class="text-center mb-3 mt-3 section-hostedby">
+                    <div class="box mahe-logo">
+                        <!-- <div class="title collaboration-title">Scopus: Comprehensive, multidisciplinary,<br>trusted abstract and citation database</div> -->
+                        <div class="image-logo">
+                            <img src="assets/img/footer-assets/Scopus_logo.png" alt="Image 1">
+                        </div>
+                    </div>
+                    <!-- <div class="box acm-logo">
+                  <div class="title">Organized By:</div>
+                  <div class="image-logo">
+                      <img src="assets/img/footer-assets/acm-logo-test.png" alt="Image 2" >
+                  </div>
+              </div> -->
+                    <div class="box tNf-logo">
+                        <!-- <div class="title collaboration-title">Trustworthy Autonomous Systems, <br> University of Applied Sciences Switzerland</div> -->
+                        <div class="image-logo">
+                            <img src="assets/img/footer-assets/compendex_logo.png" alt="Image 2">
+                        </div>
+                    </div>
+                </section>
+
+                <hr style="width: 60%; margin:auto;" />
+
+                <section class="text-center mb-3 mt-3" style="min-height: 0;">
+                    <p class="d-flex justify-content-center align-items-center" style="margin-bottom:0 !important;">
+                        <span class="me-3 collaboration-footer">In Collaboration With</span>
+                        <!-- <button type="button" class="btn btn-outline-light btn-rounded">
+                  Submit Now!
+                </button> -->
+                    </p>
+                </section>
+
+                <section class="text-center mb-3 mt-3 section-hostedby">
+                    <div class="box mahe-logo">
+                        <div class="title collaboration-title">Cyber Physical Systems, <br> Linnaeus University, Sweden
+                        </div>
+                        <div class="image-logo">
+                            <img src="assets/img/footer-assets/linnaeusUNI.png" alt="Image 1">
+                        </div>
+                    </div>
+                    <!-- <div class="box acm-logo">
+                  <div class="title">Organized By:</div>
+                  <div class="image-logo">
+                      <img src="assets/img/footer-assets/acm-logo-test.png" alt="Image 2" >
+                  </div>
+              </div> -->
+                    <div class="box tNf-logo">
+                        <div class="title collaboration-title">Trustworthy Autonomous Systems, <br> University of
+                            Applied Sciences
+                            Switzerland</div>
+                        <div class="image-logo">
+                            <img src="assets/img/footer-assets/swissUNI (1).png" style="object-fit: contain;"
+                                alt="Image 2">
+                        </div>
+                    </div>
+                </section>
+
+                <hr style="width: 80%; margin:auto;" />
+
+                <section class="text-center mb-5 mt-3" style="min-height: 32px">
+                    <a href="https://www.threads.net/@acm_mitb" target="_blank" class="text-white me-4 pt-5"
+                        style="text-decoration: none; z-index: 11">
+                        <i class="fa-brands fa-threads" style="font-size: 2rem"></i>
+                    </a>
+                    <a href="mailto:codeai.mitblr@manipal.edu" target="_blank" class="text-white me-4"
+                        style="text-decoration: none">
+                        <i class="fa-solid fa-envelope" style="font-size: 2rem"></i>
+                    </a>
+                    <a href="https://instagram.com/acm_mitb?igshid=MjEwN2IyYWYwYw==" target="_blank"
+                        class="text-white me-4" style="text-decoration: none">
+                        <i class="fa fa-instagram" style="font-size: 2rem"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/mitb-acm-student-chapter/" target="_blank"
+                        class="text-white me-4" style="text-decoration: none">
+                        <i class="fa fa-linkedin" style="font-size: 2rem"></i>
+                    </a>
+                </section>
+            </div>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                <a href="https://india.acm.org/" target="_blank" class="text-white" style="text-decoration: none">©
+                    ACM-India</a>; All Rights Reserved.
+            </div>
+        </footer>
+    </section>
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/conf.js"></script>
+
+    <!-- Flickity JS -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</body>
+
+</html>
