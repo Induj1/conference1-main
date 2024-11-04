@@ -3632,3 +3632,36 @@ h2.platinum.title {
 .progSched-link:active .title-full {
   color: rgb(255, 11, 52); /* Color on click */
 }
+.highlights-section {
+  margin: 0; /* Remove outer margins */
+  padding: 10px 0; /* Reduce padding to minimize height */
+}
+
+.highlights-title {
+  color: white; /* Change heading text color to white */
+  margin-bottom: 10px; /* Adjust margin to reduce space below the title */
+}
+
+.highlights-gallery {
+  display: flex; /* Use flexbox for side-by-side layout */
+  justify-content: center; /* Center the images */
+  flex-wrap: wrap; /* Allow images to wrap if needed */
+  align-items: flex-start; /* Align items at the start to reduce space */
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+}
+
+.highlight-image {
+  flex: 1 1 30%; /* Allow images to take equal space; adjust this percentage as needed */
+  max-width: 300px; /* Maximum width for images */
+  height: auto; /* Maintain aspect ratio */
+  margin: 5px; /* Space around each image; adjust as needed */
+  border-radius: 8px; /* Optional: add rounded corners */
+  object-fit: cover; /* Ensures images fill their dimensions without distortion */
+}
+
+/* Additional styles to consider */
+.highlights-gallery img {
+  display: block; /* Ensures images are treated as block elements */
+  margin-bottom: 0; /* Remove bottom margin from images */
+}
